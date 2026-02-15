@@ -26,7 +26,7 @@ Cube.initSolver();
 // ----------------------------
 // ⚠️ CHANGE THIS TO YOUR ACTUAL PORT (e.g. COM3, COM4, /dev/ttyUSB0)
 const esp32Port = new SerialPort({
-  path: 'COM1',
+  path: 'COM5',
   baudRate: 115200,
 });
 
